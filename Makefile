@@ -12,4 +12,4 @@ lint:
 	flake8 --exclude=.tox --exclude=venv
 
 test: lint
-	py.test --verbose --color=yes .
+	py.test --verbose --color=yes . --cov=./
