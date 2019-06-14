@@ -1,0 +1,4 @@
+comment:
+  layout: "header, diff, files"
+  behavior: default
+  require_changes: no
