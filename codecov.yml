@@ -1,4 +1,8 @@
+codecov:
+  token: 6bd11e86-b920-4ccf-b998-6adb64559d78
+
 comment:
   layout: "header, diff, files"
   behavior: default
   require_changes: no
+

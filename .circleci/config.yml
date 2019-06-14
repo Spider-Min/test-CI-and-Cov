@@ -26,4 +26,6 @@ jobs:
             make test
       - run:
           name : codecov
-          command: codecov
+          command: |
+            codecov
+            bash <(curl -s https://codecov.io/bash) -t token
