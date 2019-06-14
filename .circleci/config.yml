@@ -24,7 +24,6 @@ jobs:
           command: |
             . venv/bin/activate
             make test
-      -run:
+      - run:
           name : codecov
-          command:
-            codecov
+          command: codecov
