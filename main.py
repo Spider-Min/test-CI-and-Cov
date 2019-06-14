@@ -1,7 +1,7 @@
 def add_two_numbers(a, b):
-    if a== 0:
+    if a == 0:
         return 0
-    if a == 2:
+    elif a == 2:
         return 2
     elif a == 1:
         return 3
