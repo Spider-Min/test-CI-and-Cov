@@ -27,5 +27,4 @@ jobs:
       - run:
           name : codecov
           command: |
-            codecov
-            bash <(curl -s https://codecov.io/bash) -t 6bd11e86-b920-4ccf-b998-6adb64559d78
+            codecov -t 6bd11e86-b920-4ccf-b998-6adb64559d78
