@@ -1,5 +1,5 @@
 def add_two_numbers(a, b):
-    if a == 0:
+    if a == 3:
         return 0
     elif a == 2:
         return 2
